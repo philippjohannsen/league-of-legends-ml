@@ -1,13 +1,13 @@
-template
+League of Legends Machine Learning
 ==============================
 
-This is a project template
+This repository is a ML project on professional League of Legends game data. 
+
+Data: https://oracleselixir.com/
 
 Project Organization
 ------------
 
-    ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
     │   ├── external       <- Data from third party sources.
@@ -37,6 +37,8 @@ Project Organization
     │   │
     │   ├── data           <- Scripts to download or generate data
     │   │   └── make_dataset.py
+    |   |   └── drive_manager.py            <- Script to access Google Drive data storage 
+    |   |   └── download_data.py
     │   │
     │   ├── features       <- Scripts to turn raw data into features for modeling
     │   │   └── build_features.py
@@ -48,9 +50,6 @@ Project Organization
     │   │
     │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
     │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
-
 
 --------
 
