@@ -88,8 +88,13 @@ target/
 # Mypy cache
 .mypy_cache/
 
+<<<<<<< HEAD
 # Virtual environment 
 venv/
 
 # Drive config files
 drive_files/
+=======
+# Virtual environment
+venv/
+>>>>>>> 8e5ebefc730933ddba2ce8d002b04956fe094d03

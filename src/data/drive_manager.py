@@ -2,12 +2,17 @@ import os
 import pickle
 import json
 from datetime import datetime, timedelta
+<<<<<<< HEAD
 from dotenv import load_dotenv
+=======
+from dotenv import load_dotenv, dotenv_values
+>>>>>>> 8e5ebefc730933ddba2ce8d002b04956fe094d03
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaIoBaseDownload
 
+<<<<<<< HEAD
 
 # Load .env file
 load_dotenv()
@@ -122,4 +127,11 @@ def drive(folder_id):
     else:
         print("No updates found. All files are up-to-date.")
 
+=======
+def test():
+    print(__file__)
+
+# Load .env file
+env_config = dotenv_values()
+>>>>>>> 8e5ebefc730933ddba2ce8d002b04956fe094d03
 
