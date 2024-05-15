@@ -2,10 +2,7 @@ import os
 import pickle
 import json
 from datetime import datetime, timedelta
-
 from dotenv import load_dotenv
-
-from dotenv import load_dotenv, dotenv_values
 
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
