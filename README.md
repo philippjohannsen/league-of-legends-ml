@@ -1,7 +1,7 @@
 League of Legends Machine Learning
 ==============================
 
-This repository is a ML project on professional League of Legends game data. 
+This repository is a ML project on professional League of Legends game data. **It is currently WIP.**
 
 Data: https://oracleselixir.com/
 
